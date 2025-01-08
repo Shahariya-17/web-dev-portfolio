@@ -10,6 +10,10 @@
 }
 
 /* shared style */
+
+.secondary-bg{
+    background-color: #fff8f3;
+}
 .text-primary{
     color: rgb(253, 110, 10) ;
 }
@@ -61,6 +65,17 @@ nav li a {
     max-width: 580px;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;;
+}
+
 /* banner styles*/
 
 .header{
@@ -71,7 +86,7 @@ nav li a {
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35 0 200px;
+    margin: 0 35px 0 200px;
 }
 .banner-greetings{
     font-size: 45px;
@@ -85,4 +100,25 @@ nav li a {
 
 .banner-profile-pic{
     width: 580px;
+}
+
+/*main styles*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*about styles*/
+.about{
+    border-radius: 10px;
+    pad: 130px 150px;text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
